@@ -181,14 +181,6 @@ function App() {
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            {/* <a
-              title="Quora"
-              className="fa"
-              href="https://www.quora.com/profile/"
-              target="new"
-            >
-              <FontAwesomeIcon icon={faQuora} />
-            </a> */}
           </div>
           <div className="pagelinks">
             <a className="pagenav" href="#aboutMe">
@@ -421,11 +413,6 @@ function App() {
                   More <FontAwesomeIcon icon={faInfoCircle} />
                 
               </div>
-              {/* <div>
-                <a href="https://fahad-israr.github.io/techfest/" target='new'>
-                  Launch <FontAwesomeIcon icon={faPlayCircle} />
-                </a>
-              </div> */}
               <div>
                 <a href="https://github.com/MohamedJellali/Marvel-App" target='new'>
                   Source
@@ -474,12 +461,12 @@ function App() {
                 
               </div>
               <div>
-                <a href="https://fahad-israr.github.io/ecell/">
+                <a href="https://mohamed-jellali.herokuapp.com/">
                   Launch <FontAwesomeIcon icon={faPlayCircle} />
                 </a>
               </div>
               <div>
-                <a href="https://github.com/fahad-israr/ecell">
+                <a href="https://github.com/MohamedJellali/My-portfolio">
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
@@ -524,9 +511,6 @@ function App() {
                 
               </div>
               <div>
-                {/* <a href="https://fahad-israr.github.io/T-and-P-Website/" target='new'>
-                  Launch <FontAwesomeIcon icon={faPlayCircle} />
-                </a> */}
               </div>
               <div>
                 <a href="https://github.com/MohamedJellali/Router-Hooks-React-Checkpoints" target='new'>
@@ -568,11 +552,6 @@ function App() {
                   More <FontAwesomeIcon icon={faInfoCircle} />
                
               </div>
-              {/* <div>
-                <a href="https://fahad-israr.github.io/Face_Recognizer/" target='new'>
-                  Launch <FontAwesomeIcon icon={faPlayCircle} />
-                </a>
-              </div> */}
               <div>
                 <a href="https://github.com/MohamedJellali/Angular" target='new'>
                   Source
@@ -613,11 +592,6 @@ function App() {
                   More <FontAwesomeIcon icon={faInfoCircle} />
                 
               </div>
-              {/* <div>
-                <a href="https://fahad-israr.github.io/CatApp/" target='new'>
-                  Launch <FontAwesomeIcon icon={faPlayCircle} />
-                </a>
-              </div> */}
               <div>
                 <a href="https://github.com/MohamedJellali/BlogAppWithAngular" target='new'>
                   Source
