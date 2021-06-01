@@ -47,7 +47,19 @@ function TimeLine() {
           >
             <h1>Customer and Production Quality Engineer</h1>
             <h1>2017-2020</h1>
-            <p>VALEO</p>
+            <p>VALEO GROUP</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#000000' }}
+            date="Nov 2015"
+            iconStyle={{ background: "#000000", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h1>Production Engineer</h1>
+            <h1> 2016-2017 </h1>
+            <p>BONTAZ GROUP</p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
