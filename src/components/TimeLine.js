@@ -53,7 +53,7 @@ function TimeLine() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#000000' }}
-            date="Nov 2015"
+            date="2016 - 2017"
             iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
