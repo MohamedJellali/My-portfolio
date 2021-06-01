@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project Description 👍 :  
+A React Web Application    
+
+This project was Developed with React Js and desgined using some css tricks with :      
+ react-vertical-timeline-component, react particles js,..    
+
+Frontend : React Js, Reactstrap, react particles js,..    
+This Portfolio website (inspired from (c) Fahad Israr) 

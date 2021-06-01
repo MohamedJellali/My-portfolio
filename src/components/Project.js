@@ -159,7 +159,7 @@ function Project() {
                 <h1>
                   A React Web Application {" "}
                 </h1>
-                <h2>The project Developed with React Js for create my portfolio and apply some css tricks like : <br/>
+                <h2>The project Developed with React Js for create my portfolio and apply some css tricks with : <br/>
                 react-vertical-timeline-component, react particles js,.. 
                 </h2>
                 <h3>
