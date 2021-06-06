@@ -11,6 +11,7 @@ import portfolio from '../images/portfolio.PNG'
 import movieapp from '../images/movieapp.PNG'
 import angapp from '../images/angapp.PNG'
 import angularblog from '../images/Angularblog.PNG'
+import todoList from '../images/todoList.PNG'
 
 import '../App.css'
 
@@ -22,6 +23,7 @@ function Project() {
     const [view4, toggle4] = useState(0);
     const [view5, toggle5] = useState(0);
     const [view6, toggle6] = useState(0);
+    const [view7, toggle7] = useState(0);
 
     return (
         <div>
@@ -229,13 +231,76 @@ function Project() {
               </div>
 
               <div>
+                  
+                  <div>
+                      
                 <a href="https://github.com/MohamedJellali/Router-Hooks-React-Checkpoints" target='new'>
                   Source
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
+                  </div>
             </div>
           </div>
+
+
+
+          <div
+            className="project-item"
+            onMouseEnter={() => {
+              toggle7(1);
+            }}
+            onMouseLeave={() => {
+              toggle7(0);
+            }}
+          >
+            <h1>Todo List App</h1>
+            <ReactCardFlip isFlipped={view7} flipDirection="horizontal">
+              <img
+                key="front"
+                src={todoList}
+                alt="todolist app"
+              />
+              <div className="reverse" key="back">
+                <h1>
+                  Example of Todo List Devoloped with React and Redux
+                </h1>
+                <h2>The project Developed with the React and Redux</h2>
+                <h3>
+                  Frontend : React Js, Bootstrap, Redux,..<br/>
+                  
+                </h3>
+                <p>
+                  A todo list App, redux for the data management, you can Create, Update and Delete your tasks<br />{" "}
+                </p>
+              </div>
+            </ReactCardFlip>
+
+            <div className="options">
+              <div onClick={() => toggle7(!view7)}>
+                
+                  More <FontAwesomeIcon icon={faInfoCircle} />
+                
+              </div>
+              
+              <div>
+                <a href="https://todolist-mj.herokuapp.com/">
+                  Launch <FontAwesomeIcon icon={faPlayCircle} />
+                </a>
+              </div>
+                  <div>
+                      
+                <a href="https://github.com/MohamedJellali/React-Redux-Todolist-Checkpoint-" target='new'>
+                  Source
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </div>
+                 
+            </div>
+          </div>
+
+
+
 
           <div
             className="project-item"
