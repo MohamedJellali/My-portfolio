@@ -12,6 +12,7 @@ import movieapp from '../images/movieapp.PNG'
 import angapp from '../images/angapp.PNG'
 import angularblog from '../images/Angularblog.PNG'
 import todoList from '../images/todoList.PNG'
+import chatapp from '../images/chatapp.PNG'
 
 import '../App.css'
 
@@ -205,10 +206,10 @@ function Project() {
             }}
           >
             <h1>Chat Application</h1>
-            <ReactCardFlip isFlipped={view7} flipDirection="horizontal">
+            <ReactCardFlip isFlipped={view8} flipDirection="horizontal">
               <img
                 key="front"
-                src={todoList}
+                src={chatapp}
                 alt="todolist app"
               />
               <div className="reverse" key="back">
