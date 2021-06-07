@@ -24,6 +24,7 @@ function Project() {
     const [view5, toggle5] = useState(0);
     const [view6, toggle6] = useState(0);
     const [view7, toggle7] = useState(0);
+    const [view8, toggle8] = useState(0);
 
     return (
         <div>
@@ -192,6 +193,66 @@ function Project() {
               </div>
             </div>
           </div>
+
+
+          <div
+            className="project-item"
+            onMouseEnter={() => {
+              toggle8(1);
+            }}
+            onMouseLeave={() => {
+              toggle8(0);
+            }}
+          >
+            <h1>Chat Application</h1>
+            <ReactCardFlip isFlipped={view7} flipDirection="horizontal">
+              <img
+                key="front"
+                src={todoList}
+                alt="todolist app"
+              />
+              <div className="reverse" key="back">
+                <h1>
+                  Chat Application developed with React Js and Chat Engine
+                </h1>
+                <h2>A very cool chat application that support the instant conversation</h2>
+                <h3>
+                Copy Right of the project : "JavaScript Mastery"<br/>
+                  
+                </h3>
+                <p>
+                  If you want to try it, you could Launch the application and login with : <br />
+                  -username: Joker <br />
+                  -password : 123456 <br />
+                  Send me a massage and I will reply when I connect !
+                </p>
+              </div>
+            </ReactCardFlip>
+
+            <div className="options">
+              <div onClick={() => toggle8(!view8)}>
+                
+                  More <FontAwesomeIcon icon={faInfoCircle} />
+                
+              </div>
+              
+              <div>
+                <a href="https://chat-with-mj.herokuapp.com/">
+                  Launch <FontAwesomeIcon icon={faPlayCircle} />
+                </a>
+              </div>
+                  <div>
+                      
+                <a href="https://github.com/MohamedJellali/Chat-Application" target='new'>
+                  Source
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+              </div>
+                 
+            </div>
+          </div>
+
+
 
           <div
             className="project-item"
