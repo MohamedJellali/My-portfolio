@@ -17,12 +17,24 @@ function TimeLine() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#000000' }}
-            date=" April 2021 - present"
+            date=" May 2021 - present"
+            iconStyle={{ background: "#000000", color: "#fff" }}
+            icon={<FontAwesomeIcon icon={faReact} />}
+          >
+            <h1>Full Stack Web Developer</h1>
+            <h1>May 2021 - Present</h1>
+            <p>Oxilog Consulting</p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#000000' }}
+            date=" April 2021 - July 2021"
             iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faReact} />}
           >
             <h1>Full Stack Javascript Instructor</h1>
-            <h1>April 2021 - present</h1>
+            <h1>April 2021 - July 2021</h1>
             <p>GoMyCode</p>
           </VerticalTimelineElement>
 
